@@ -1,0 +1,556 @@
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class=" js hide-overflow">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width" />
+  <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
+  <script>
+    window.onload=function(){
+            $( '#main' ).fadeTo( 2000, 1 );
+        }
+  </script>
+  <!-- Optimize anti-flicker code https://developers.google.com/optimize -->
+  <style>
+  .async-hide { opacity: 0 !important} 
+  .first{
+    width: 100%; height: 90%; padding: 0% 0% 0% 0%;
+}
+.chel{
+  width: auto; height: 50%; visibility: visible;
+}
+.lidar{
+  width: 70%; height: 60%; 
+}
+  @media screen and (max-width: 600px) {
+    .first{
+      width: 100%; height: auto; padding: 45% 0% 0% 0%;
+}
+.chel{
+  width: 20%; height: 15%; visibility: hidden;
+}
+.lidar{
+  width: 70%; height: 25%; 
+}
+}
+  /*_______________________________________________форма______________________________________________*/
+input{
+  border-radius: 25px;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: auto;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 40px;
+  width: 70%;
+  border-radius: 35px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #aaaaaa;
+}
+
+
+input.invalid {
+  background-color: #ffdddd;
+}
+
+
+.tab {
+  display: none;
+}
+
+button {
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: black;
+}
+
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+
+.step.finish {
+  background-color: black;
+}
+
+  </style>
+  </head>
+  <body class="page-new-homepage template-landing-page tds-menu-header-sticky tds-site-header--dark tds-menu-header-transparent--dark tcl-parallax-effect--off site-body animate-onscroll i18n-en_us browser-is-chrome is-Chrome tds-user_is--logged_out" id="page-new-homepage" data-drupal-component-status="initialized" style="top: 0px;">
+
+<script async="" src="./tesla_files/gtm.js"></script>
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Popov Bukus</title>
+<link rel="stylesheet" media="all" href="./tesla_files/css_dc2n_5gN_nSnMCiBAPc8IYUrcK2YmitAZkYi4Zv71kw.css">
+<link rel="stylesheet" media="all" href="./tesla_files/css_YAlyuJrr90PYSyXAcH54lrd_iv4ASaxI-FO8-PaeQ6Q.css">
+
+
+  <!-- Lets get mobile -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta content="True" name="HandheldFriendly">
+  <meta id="viewport-tag" name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+
+
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"true","rua.cpush":"true","rua.upre":"true","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-6c42f2f3-f922-41ce-b4c5-53ca8f612a51","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false"}]);</script>
+                        <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="CZ5PJ-C3ULH-UWR94-5N9HG-JMT9V",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"CZ5PJ-C3ULH-UWR94-5N9HG-JMT9V",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="true"=="true"?1:0,t="",n="l7oaeldaced4iybkwkiq-f-93240a2cd-clientnsv4-s.akamaihd.net",i={"ak.v":"30","ak.cp":"878901","ak.ai":parseInt("224388",10),"ak.ol":"0","ak.cr":24,"ak.ipv":4,"ak.proto":"h2","ak.rid":"1bcbb043","ak.r":38685,"ak.a2":e,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"95.220.2.0","ak.cport":49378,"ak.gh":"62.115.253.165","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1613410961","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==ego5dgskSdwzz5IKWjFPIpU1JZapTX3+7HCHf1m9VhCUeSr05njkEThesYaNl5qmy32qD5EabYzfOfTSFrd5T6tHlmNlg2B06qdtf5Os/pub8dqw4MP99+nofnuG2v/S7fZrOUDsthmBe2jlF/o/Uwg8rB+ZZ48K2e1XSBnR3M7uUQR7r125+On0zuaIrWvO0WTcgxZC9iF3B1c3ymclJpiCSdM+yUkg4cUQl1kih7ss/je7uxQM45Hd/qBrFxoI5h2lC2ZO4HML1Fztsi+Z3TNH3LVRVSEEkjsGn11baxkjF+0moSURsuXdbHEM3d0LIyo0QlX/ON8iBHLtUYucwqfDOtqoFv1IVV6pkzQtFA8bXoTONQjDs54r1h64irzbrCcgqaUYJe/eGefn5cAkKP4ofFsbm2dd0TW+t7PavME=","ak.pv":"741","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var _={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!_.i){var a=BOOMR.subscribe;a("before_beacon",_.av,null,null),a("onbeacon",_.rv,null,null),_.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>
+  
+<div class="dialog-off-canvas-main-canvas dialog-off-canvas-main-canvas--with-scroll-snapping" data-off-canvas-main-canvas="">
+
+<div class="tds-menu-header tds-menu-header-legacy">
+  <input type="checkbox" id="tds-menu-header-nav--secondary_show" class="tds-menu-header-checkbox" aria-label="Toggle Side Menu">
+  <header id="tds-menu-header-main" class="tds-menu-header-main tds-menu-header--transparent_on_mobile tds-o-header-main" aria-label="Site header">
+    <div class="tds-menu-header-main--container">
+      <div class="tds-container">
+        <h1 id="tesla-logo" class="tds-menu-header-main--logo_container" aria-label="Tesla">
+                                  
+        </h1>
+        <input type="checkbox" id="tds-menu-header-main--trigger" class="tds-menu-header-checkbox">
+        <label class="tds-menu-header-main--trigger_icon--placeholder" for="tds-menu-header-main--trigger" data-gtm-event="navigation" data-gtm-location="hamburger nav">
+          <span class="tds-menu-header-main--trigger_icon">
+            <i class="tds-menu-header-main--cross_hatch" aria-label="Toggle Side Menu">×</i>
+          </span>
+        </label>
+        <nav id="tesla-legacy-menu" class="tds-menu-header-nav tds-o-header-nav" data-gtm-event="navigation" data-gtm-location="top nav">
+<nav role="navigation" aria-labelledby="main-header-navigation-menu" id="block-mainheadernavigation" class="tds-menu-header-nav--primary tds--hide_on_mobile">
+          
+<h2 class="visually-hidden" id="main-header-navigation-menu">Main Header Navigation</h2>
+
+</nav>
+
+<nav role="navigation" aria-labelledby="hamburger-mobile-menu" id="block-hamburgermobile" class="tds-menu-header-nav--primary tds--hide_on_middle">       
+<h2 class="visually-hidden" id="hamburger-mobile-menu">Hamburger Mobile</h2>
+
+
+      
+                  <ol data-region="legacy_menu_support" class="tds-menu-header-nav--list">
+                        <li class="tds-menu-header-nav--list_item">
+      <a href="https://www.tesla.com/models" class="tds-menu-header-nav--list_link">Старый сайт</a>
+                            </li>
+                    <li class="tds-menu-header-nav--list_item">
+      <a href="https://www.tesla.com/model3" class="tds-menu-header-nav--list_link">О нас</a>
+                            </li>
+                    <li class="tds-menu-header-nav--list_item">
+      <a href="https://www.tesla.com/modelx" class="tds-menu-header-nav--list_link">О них</a>
+                            </li>
+                    <li class="tds-menu-header-nav--list_item">
+      <a href="https://www.tesla.com/modely" class="tds-menu-header-nav--list_link">Карта</a>
+                            </li>
+                    
+      </ol>
+    
+
+
+</nav>
+
+<div class="tds-menu-header-nav--secondary">
+<span class="tds-menu-header--more_caret"></span>
+
+<nav role="navigation" aria-labelledby="hamburger-desktop-menu" id="block-hamburgerdesktop">
+          
+<h2 class="visually-hidden" id="hamburger-desktop-menu">Hamburger Desktop</h2>
+
+
+      
+                  <ol data-region="legacy_menu_support" class="tds-menu-header-nav--list tds-menu-header-nav--parent_nav tds--hide_on_mobile">
+                        <li class="tds--hide_on_mobile tds-menu-header-nav--list_item">
+      <a href="https://www.tesla.com/inventory/new/ms" class="tds-menu-header-nav--list_link">Старый сайт</a>
+                            </li>
+                    <li class="tds--hide_on_mobile tds-menu-header-nav--list_item">
+      <a href="https://www.tesla.com/inventory/used/ms" class="tds-menu-header-nav--list_link">О нас</a>
+                            </li>
+                    <li class="tds-menu-header-nav--list_item">
+      <a href="https://www.tesla.com/tradein" class="tds-menu-header-nav--list_link">О них</a>
+                            </li>
+                    <li class="tds-menu-header-nav--list_item">
+      <a href="https://www.tesla.com/cybertruck" class="tds-menu-header-nav--list_link">Карта</a>
+                            </li>
+                              
+
+
+</nav>
+
+</div>
+
+
+</nav>
+        <span id="tds-menu-header-mask"></span>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main role="main" class="site-content site-content-legacy ">
+  <div class="layout__region layout__region--content">
+      <div class="block-region-content"><div class="block block-ctools block-entity-viewnode">
+
+    
+      <div class="tcl-hero-parallax">
+      <div class="tcl-hero-parallax__header header-copy-position--default" style=" --header-desktop-font-size:40px; --header-mobile-font-size:36px;">
+                                
+                          
+      </div>
+
+    
+    <div class="layout layout--onecol">
+    <div class="layout__region layout__region--content">
+
+      
+    <div class="block block-layout-builder block-inline-blockhero-parallax">
+
+    
+      
+  <section data-gtm-key="tesla-hero-parallax-25" class="tcl-hero-parallax__screen tcl-hero-parallax__screen--mobile-peekaboo-off tcl-hero-parallax__screen--desktop-peekaboo-off reveal" data-mobile-peekaboo="0" data-desktop-peekaboo="0" style="--asset-x-offset-mobile: 0vw; --asset-y-offset-mobile: -3vh; --asset-x-offset-desktop: 0vw; --asset-y-offset-desktop: 0vh; --transition-duration:1.5s;" id="tesla-hero-parallax-25">
+    <div class="tcl-hero-parallax__container">
+        
+        
+
+
+  <!-- Первый слайд-->
+<H1 align=center>Дроны</H1>
+    <img class="first" src="dron.jpg" >                
+      <ul class="tcl-hero-parallax__additional-links additional-links--has-page-down-arrow">
+                  <li>
+                      <span data-gtm-event="drawer-interaction" aria-label="Move down / next" class="tds-icon--bounce tds-animate--bounce tds-icon tds-icon-arrow-down hero-arrow_down  "></span>
+                  </li>
+      </ul>
+    </div>
+  </div>
+  </section>
+
+  </div>
+  <div class="block block-layout-builder block-inline-blockhero-parallax">
+
+    
+      
+  <section data-gtm-key="tesla-hero-parallax-4" class="tcl-hero-parallax__screen tcl-hero-parallax__screen--mobile-peekaboo-off tcl-hero-parallax__screen--desktop-peekaboo-off reveal" data-mobile-peekaboo="0" data-desktop-peekaboo="0" style="--asset-x-offset-mobile: 0vw; --asset-y-offset-mobile: -7vh; --asset-x-offset-desktop: 0vw; --asset-y-offset-desktop: -3vh; --transition-duration:1.5s;" id="tesla-hero-parallax-4">
+    <div class="tcl-hero-parallax__container">
+        
+        
+
+
+
+  <!-- Второй слайд-->
+
+
+  <!--<section class="tcl-image tcl-hero-parallax__asset">
+    <picture data-iesrc="me.png">
+      <img src="me.png" class="tds-asset-fallback ">
+  </picture>
+  </section>-->
+  <center>
+  <div>
+    <H1 align=center >Дроны заменят курьеров?</H1>
+        <p>
+          Мы хотим предложить использовать  дронов не для того, чтобы снимать красивые панорамы, а чтобы дрон мог самостоятельно, без помощи человека доставлять груз.
+          Эта вохможность очень сильно облегчит работу курьерам или совсем заменит их.
+        </p>
+        <p>
+          До сих пор лидары воздушного базирования применялись со специализиров. однофункцион. платформами или для затратной аэрогеодезии на пилотируемых 
+          воздушных судах с длительными сроками выполнения. Лидар специально разработан для использования на дронах. Полностью интегрированная умная RGB-камера 
+          рассчитана на управление с помощью датчиков в реальном времени и на полётный обзор получаемых фото с автоматическим техническим контролем.
+          Дрон рассчитан на покрытие за один полёт 2 400 акров (около 10 кв. км), возможности связи в радиусе 30 км и 100 минут полётного времени. 
+          Как результат, беспилотник подходит не только для доставки грузов, но и для инженерно-экологических изысканий, съёмки местности, мониторинга лесного хозяйства, 
+          поддержания инфраструктуры, инспекций трубопроводов и линий электропередачи, строительства автомобильных и железных дорог.
+        </p>
+  </div>
+  <img class="chel" src="chel.png" > 
+</center>
+    </div>
+  </div>
+  </section>
+
+  </div>
+  <div class="block block-layout-builder block-inline-blockhero-parallax">
+
+    
+      
+  <section data-gtm-key="tesla-hero-parallax-18" class="tcl-hero-parallax__screen tcl-hero-parallax__screen--mobile-peekaboo-off tcl-hero-parallax__screen--desktop-peekaboo-off reveal" data-mobile-peekaboo="0" data-desktop-peekaboo="0" style="--asset-x-offset-mobile: 0vw; --asset-y-offset-mobile: -3vh; --asset-x-offset-desktop: 0vw; --asset-y-offset-desktop: 0vh;" id="tesla-hero-parallax-18">
+    <div class="tcl-hero-parallax__container">
+        
+        
+
+
+  <!-- третий слайд-->
+  <center>
+    <div>
+      <H1>Лидары</H1>
+      <p>
+        Излучатели лидара формируют вертикальную полосу из лазерных лучей, как правило, их от 16 до 128. Для создания картинки с охватом 360° 
+        площадка с лазерами совершает несколько оборотов в секунду вокруг своей вертикальной оси.
+      </p>
+      <p>
+        Лидары выдают хорошо детализированную картинку происходящего вокруг, определяют расстояния до объектов и их скорость. 
+        Обладают хорошей дальностью и высокой скоростью работы. Отлично функционируют при плохой погоде и в ночное время суток.
+      </p>
+    </div>
+    <img class="lidar" src="lidars.png" > 
+  </center>
+
+
+  
+
+    </div>
+  </div>
+  </section>
+
+  </div>
+  <div class="block block-layout-builder block-inline-blockhero-parallax">
+
+    
+      
+  <section data-gtm-key="tesla-hero-parallax-11" class="tcl-hero-parallax__screen tcl-hero-parallax__screen--mobile-peekaboo-off tcl-hero-parallax__screen--desktop-peekaboo-off reveal" data-mobile-peekaboo="0" data-desktop-peekaboo="0" style="--asset-x-offset-mobile: 0vw; --asset-y-offset-mobile: -3vh; --asset-x-offset-desktop: 0vw; --asset-y-offset-desktop: 0vh;" id="tesla-hero-parallax-11">
+    <div class="tcl-hero-parallax__container">
+        
+        
+
+  <!-- четвертый слайд-->
+  <center>
+    <div>
+      <H1>Камеры</H1>
+        <p>
+          Камера — это ключевой источник информации для беспилотного дрона.
+        </p>
+        <p>
+          Из всех сенсоров беспилотника только камера умеет определять пешехода, машины, здания и так далее. Также у камеры большие углы обзора.
+        </p>
+        <p>
+          Из минусов — определять скорости объектов, а также расстояния до них по данным с камеры проблематично, точность недостаточная.
+          И обработка видеопотока в реальном времени требует хорошей вычислительной мощности.
+        </p>
+    </div>
+    <img class="lidar" src="camera.png" > 
+  </center>
+
+    </div>
+  </div>
+  </section>
+
+  </div>
+  <div class="block block-layout-builder block-inline-blockhero-parallax">
+
+    
+      
+  <section data-gtm-key="tesla-hero-parallax-39" class="tcl-hero-parallax__screen tcl-hero-parallax__screen--mobile-peekaboo-off tcl-hero-parallax__screen--desktop-peekaboo-off reveal" data-mobile-peekaboo="0" data-desktop-peekaboo="0" style="--asset-x-offset-mobile: 0vw; --asset-y-offset-mobile: -3vh; --asset-x-offset-desktop: 0vw; --asset-y-offset-desktop: 0vh;" id="tesla-hero-parallax-39">
+    <div class="tcl-hero-parallax__container">
+        
+        
+
+
+
+  <!-- пятый слайд-->
+
+  <div><br>
+    <H1 align=center >Хочешь работать с нами? Присоединяйся!</H1>
+    <center>
+    <form id="regForm" >
+      <h1 >Анкета:</h1>
+      <div class="tab"><p>Как Вас звать?</p>
+        <p style="text-indent: 0em;"><input placeholder="Имя..." oninput="this.className = ''" name="fname"></p>
+        <p style="text-indent: 0em;"><input placeholder="Фамилия..." oninput="this.className = ''" name="lname"></p>
+      </div>
+      <div class="tab">Контакты:
+        <p style="text-indent: 0em;"><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
+        <p style="text-indent: 0em;"><input placeholder="Телефон..." oninput="this.className = ''" name="phone"></p>
+      </div>
+      <div class="tab">Дата рождения:
+        <p style="text-indent: 0em;"><input placeholder="День" oninput="this.className = ''" name="dd"></p>
+        <p style="text-indent: 0em;"><input placeholder="Месяц(цыфрами)" oninput="this.className = ''" name="nn"></p>
+        <p style="text-indent: 0em;"><input placeholder="Год" oninput="this.className = ''" name="yyyy"></p>
+      </div>
+      <div style="overflow:auto;">
+        <div style="float:right;">
+          <button type="button" id="prevBtn" onclick="nextPrev(-1)">Назад</button>
+          <button type="button" id="nextBtn" onclick="nextPrev(1)">Следующий шаг</button>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:40px;">
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+      </div>
+    </form>
+  </center>
+  </div>
+  <script>
+    var currentTab = 0;
+    showTab(currentTab); 
+    
+    function showTab(n) {
+      var x = document.getElementsByClassName("tab");
+      x[n].style.display = "block";
+      if (n == 0) {
+        document.getElementById("prevBtn").style.display = "none";
+      } else {
+        document.getElementById("prevBtn").style.display = "inline";
+      }
+      if (n == (x.length - 1)) {
+        document.getElementById("nextBtn").innerHTML = "Подтвердить";
+      } else {
+        document.getElementById("nextBtn").innerHTML = "Следующий шаг";
+      }
+      fixStepIndicator(n)
+    }
+    
+    function nextPrev(n) {
+      var x = document.getElementsByClassName("tab");
+      if (n == 1 && !validateForm()) return false;
+      x[currentTab].style.display = "none";
+      currentTab = currentTab + n;
+      if (currentTab >= x.length) {
+        document.getElementById("regForm").submit();
+        return false;
+      }
+      showTab(currentTab);
+    }
+    
+    function validateForm() {
+      var x, y, i, valid = true;
+      x = document.getElementsByClassName("tab");
+      y = x[currentTab].getElementsByTagName("input");
+      for (i = 0; i < y.length; i++) {
+        if (y[i].value == "") {
+          y[i].className += " invalid";
+          valid = false;
+        }
+      }
+      if (valid) {
+        document.getElementsByClassName("step")[currentTab].className += " finish";
+      }
+      return valid; 
+    }
+    
+    function fixStepIndicator(n) {
+      var i, x = document.getElementsByClassName("step");
+      for (i = 0; i < x.length; i++) {
+        x[i].className = x[i].className.replace(" active", "");
+      }
+      x[n].className += " active";
+    }
+    </script>
+    </div>
+  </div>
+  </section>
+
+  </div>
+  <div class="block block-layout-builder block-inline-blockhero-parallax">
+
+    
+      
+  <section data-gtm-key="solar-roof" class="tcl-hero-parallax__screen tcl-hero-parallax__screen--mobile-peekaboo-off tcl-hero-parallax__screen--desktop-peekaboo-off reveal" data-mobile-peekaboo="0" data-desktop-peekaboo="0" style="--asset-x-offset-mobile: 0vw; --asset-y-offset-mobile: -6vh; --asset-x-offset-desktop: 0vw; --asset-y-offset-desktop: 0vh;" id="solar-roof">
+    <div class="tcl-hero-parallax__container">
+        
+        
+
+  <!-- шестой слайд-->
+  <div  id="about">
+    <H1 align=center>О нас</H1>
+    <center>
+      <p class="about">
+        Мы, молодые разработчики, учимся в МАДИ. Сейчас мы разрабатываем лидары для дронов, которые в будущем облегчат нашу жизнь. На данный момент мы заняты разработкой новой версией лидара.
+      </p>
+        <p><b>Над проектом работают:</b></p >
+        <img src="dan.png" height=200 width=200 style="border-radius: 200px; border:2px solid white;">
+        <p><b>Даниил Букус</b>-студент МАДИ</p>
+            <img src="me.png" height=200 width=200 style="border-radius: 200px; border:2px solid white;">
+            <p ><b>Андрей Попов</b>-студент МАДИ</p>
+
+  
+  </div>
+
+
+    </div>
+  </div>
+  </section>
+  </div>
+
+  <div class="block block-layout-builder block-inline-blockhero-parallax">
+
+    
+      
+    <section data-gtm-key="solar-roof" class="tcl-hero-parallax__screen tcl-hero-parallax__screen--mobile-peekaboo-off tcl-hero-parallax__screen--desktop-peekaboo-off reveal" data-mobile-peekaboo="0" data-desktop-peekaboo="0" style="--asset-x-offset-mobile: 0vw; --asset-y-offset-mobile: -6vh; --asset-x-offset-desktop: 0vw; --asset-y-offset-desktop: 0vh;" id="solar-roof">
+      <div class="tcl-hero-parallax__container">
+          
+          
+  
+    <!-- седьмой слайд-->
+    <center>
+    <H1 align=center >Где нас искать?</H1>
+    <p align=center >
+      Наш офис находится по адресу:<br>Ленинградский пр-т., 64, Москва, 125319
+    </p>
+    <p align=center >
+      Наш телефон: <a href="tel:+74991550104" style=" text-decoration:none;">+74991550104</a>
+    </p>
+    <div id="map" style="width: 70%; height: 50%;"></div><br><br><br><br><br>
+    <p style="padding:0%">Курсовой проект 3бАСУ1</p>
+    <p style="padding:0%">Мы в соц. сетях</p>
+  <a href="https://www.instagram.com/?hl=ru"> <img src="insta.png" href="#" height=70 width=70 ></a><a href="https://vk.com/"><img src="vk.png" height=50 width=50 style="margin-top: 19px;"></a>
+
+  </center>
+    <script>
+        DG.then(function() {
+            var map = DG.map('map', {
+                center: [55.8025335027456, 37.529198154852395],
+                zoom: 16
+            });
+            DG.marker([55.8025335027456, 37.529198154852395])
+                .addTo(map)
+                .bindLabel('Ленинградский пр-т., 64, Москва, 125319', {
+                    static: true
+                });
+  
+            DG.marker([55.8025335027456, 37.529198154852395]).addTo(map).bindPopup('Мы находимся здесь!');
+        });
+    </script>
+
+      </div>
+    </div>
+    </section>
+    </div>
+</main>
+
+
+
+</div>
+
+  
+  <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/256106","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"tesla_locale_existing":{"locale":["de_at","nl_be","fr_be","fr_ca","da_dk","fi_fi","fr_fr","zh_hk","is_is","en_in","ja_jp","fr_lu","de_lu","zh_mo","en_nz","no_no","pl_pl","pt_pt","en_pr","sl_si","en_za","sv_se","fr_ch","de_ch","it_ch","en_au","en_ca","zh_cn","cs_cz","en","de_de","el_gr","en_hk","en_ie","it_it","en_jo","en_mo","es_mx","nl_nl","en_eu","es_pr","en_sg","ko_kr","es_es","zh_tw","en_ae","en_gb","he_il","hr_hr","en_us"]},"tesla_mega_menu":{"is_site_template_enabled":true,"is_china_domain":false},"user":{"uid":0,"permissionsHash":"233257b7076c6aa824ac0fa7abdd775c42bdb2ebf0cb4a37d3eaeedfd222a7d7"}}</script>
+<script src="./tesla_files/js_Kyd_5L44fURsnoqM4XS7iwHtbbch-oCAi0Wqp00I8a8.js"></script>
+
+
+<script type="text/javascript" id="">window._svq=window._svq||[];window._svq.push(["_setAccount","2790_03955"]);window._svq.push(["_trackPageView"]);(function(a,c){var b=a.createElement(c);b.type="text/javascript";b.src="//track.securedvisit.com/js/sv.js";a=a.getElementsByTagName(c)[0];a.parentNode.insertBefore(b,a)})(document,"script");</script>
+
+</body></html>
